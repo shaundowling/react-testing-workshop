@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import WorkshopDetails from './WorkshopDetails';
-import ReviewList from './ReviewList';
+import WorkshopDetails from './WorkshopDetails'
+import ReviewList from './ReviewList'
+import NewReview from './NewReview'
 
 const reviews = [
   {
@@ -51,6 +52,7 @@ class App extends Component {
           averageRating="5.0" 
         />
         <ReviewList reviews={reviews} />
+        <NewReview />
       </div>
     );
   }
