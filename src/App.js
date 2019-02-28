@@ -56,8 +56,6 @@ class App extends Component {
       return acc
     }, 0)
 
-    console.log(this.state.reviews, this.state.reviews.length)
-
     return Math.ceil(total / this.state.reviews.length)
   }
 
