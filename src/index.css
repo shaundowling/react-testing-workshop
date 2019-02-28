@@ -4,3 +4,24 @@ body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+.App {
+  max-width: 680px;
+  border-radius: 16px;
+  border: 3px solid hotpink;
+  padding: 16px;
+  margin: 16px auto;
+}
+
+.workshopDetails {
+  border: 3px solid salmon;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px auto;
+}
+
+.reviewList {
+  border: 3px solid gold;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px auto;
+}

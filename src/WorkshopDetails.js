@@ -1,5 +1,6 @@
 import React from 'react'
 import DurationTimer from './DurationTimer'
+import Rating from './Rating'
 
 const WorkshopDetails = ({title, instructor, averageRating}) => (
   <div className="workshopDetails">
@@ -7,7 +8,10 @@ const WorkshopDetails = ({title, instructor, averageRating}) => (
     <h3>{ instructor }</h3>
     <DurationTimer />
     <div className="averageRating">
-      {averageRating}
+      <label>
+        Average Rating
+        <Rating value={averageRating} />
+      </label>
     </div>
   </div>
 )
