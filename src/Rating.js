@@ -13,7 +13,7 @@ const Rating = ({value}) => {
   }
 
   console.log(v)
-  
+
   return (
     <span className="rating">
       {"🍕".repeat(v)}
