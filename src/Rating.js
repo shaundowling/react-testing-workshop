@@ -11,6 +11,8 @@ const Rating = ({value}) => {
   } else {
     v = value
   }
+
+  console.log(v)
   
   return (
     <span className="rating">
